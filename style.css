@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body
+{
+    background-color: black;
+}
+#tittle
+{
+    text-align: center;
+    margin-top: 3%;
+    text-decoration:underline;
+    color: aliceblue;
+}
+.infoContainer
+{
+    margin: auto;
+    margin-top: 3%;
+    height: 70vh;
+    width: 60vh;
+    background-color: darkgray;
+    border-radius: 30px;
+}
+#buttonContainer
+{
+    text-align: center;
+    margin-top: 3%;
+}
+#button1
+{
+    padding: 14px 60px;
+}
+#planet
+{
+    margin-top: 5%;
+    text-align: center;
+}
+#planetData
+{
+    padding: 14px 35px;
+}
