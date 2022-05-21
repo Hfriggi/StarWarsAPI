@@ -25,4 +25,13 @@ document.getElementById('button1').onclick = function(){
         pilot.innerText = data[pilotId].name
         copilot.innerText = data[copilotId].name
     }
+
+    function teste () {
+        var pilotId = document.getElementById('pilotData').value;
+        var copilotId = document.getElementById('copilotData').value;
+
+        ija = axios.get('https://swapi.dev/api/people/' + pilotId + '.name')
+        console.log('test: '+ija.name)
+    }
+    teste ();
 }
