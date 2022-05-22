@@ -14,7 +14,7 @@ Para planetas temos 60 dispostos com ID de 1 à 60
 
 Para Naves, há cadastros nos seguintes IDs específicos= 2,3,5,9,10 (*Millenium Falcon*),11,12,13,15,17,19,21,22,23,27,28,29,31 e 32.
 
-Caso tenha inserido IDs válidos nos campos, o box de informações irá se preencher com as informações da viagem.
+Caso tenha inserido IDs válidos nos campos, basta clicar no botão "find infos" que o box de informações irá se preencher com as informações da viagem.
 
 ![image](https://user-images.githubusercontent.com/91426980/169717129-501940b3-b690-41a3-a7bb-46c5bd0e7fe2.png)
 
@@ -30,3 +30,10 @@ Para testar localmente este site, basta selecionar uma pasta de sua escolha no s
 Abrindo o VScode, basta rodar o seguinte comando no terminal do VScode:
 
 ```git clone https://github.com/Hfriggi/StarWarsAPI.git```
+
+A partir daí, basta copiar o caminho que leva até o arquivo a pasta que você clonou esté repositório e colar em um navegador de sua escolha e adcionar "index.html" ao fim do caminho.
+
+![image](https://user-images.githubusercontent.com/91426980/169717407-d5c7a78a-ccd4-4dba-b4db-0f118440321a.png)
+
+
+
