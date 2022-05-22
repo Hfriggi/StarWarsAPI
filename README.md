@@ -29,5 +29,4 @@ Para testar localmente este site, basta selecionar uma pasta de sua escolha no s
 
 Abrindo o VScode, basta rodar o seguinte comando no terminal do VScode:
 
-$ pwd
-git clone https://github.com/Hfriggi/StarWarsAPI.git
+```git clone https://github.com/Hfriggi/StarWarsAPI.git```
