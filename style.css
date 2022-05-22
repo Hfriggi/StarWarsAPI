@@ -33,13 +33,13 @@
 }
 #planet
 {
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     color: crimson;
 }
 #planet2
 {
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     color: crimson;
 }
@@ -51,6 +51,16 @@
 {
     padding: 14px 35px;
 }
+#pilot
+{
+    text-align: center;
+    color: crimson;
+}
+#copilot
+{
+    text-align: center;
+    color: crimson;
+}
 .bodyText
 {
     color: aliceblue;
@@ -58,5 +68,16 @@
 .infoText
 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
+}
+.planet11
+{
+    display: inline;
+    margin-left: 30%;
+}
+.planet1
+{
+    display: inline;
+    margin-left: 15px;
+    color: crimson;
 }

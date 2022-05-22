@@ -4,20 +4,23 @@
         <meta charset="utf-8">
         <title>Star Wars API</title>
         <link rel="stylesheet" href="./style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body id="body">
         <h1 id="tittle">Star Wars Planet Travel API</h1>
 
         <div class="infoContainer">
             <br><h1 class="infoText">Your Journey will be:</h1>
-            <h1 class="infoText">From:</h1>
-            <h1 id="planet"></h1>
-            <h1 class="infoText">To:</h1>
-            <h1 id="planet2"></h1>
-            <h1 class="infoText">Pilot:</h1>
-            <h1 id="pilot"></h1>
-            <h1 class="infoText">Copilot:</h1><h1 id="copilot"></h1>
-            <h1 class="infoText">Ship:</h1>
+            <h1 class="planet11">From:</h1>
+            <h1 id="planet" class="planet1"></h1><br><br><br><br>
+            <h1 class="planet11">To:</h1>
+            <h1 id="planet2" class="planet1"></h1><br><br><br><br>
+            <h1 class="planet11">Pilot:</h1>
+            <h1 id="pilot" class="planet1"></h1><br><br><br><br>
+            <h1 class="planet11">Copilot:</h1>
+            <h1 id="copilot" class="planet1"></h1><br><br><br><br>
+            <h1 class="planet11">Ship:</h1>
+            <h1 id="shipPrint" class="planet1"></h1>
         </div>
         <div id="buttonContainer">
             <a class="bodyText">From Planet:</a><br><br>
@@ -28,6 +31,8 @@
             <input type="text" id="pilotData"> <br><br>
             <a class="bodyText">Copilot:</a><br><br>
             <input type="text2" id="copilotData"> <br><br>
+            <a class="bodyText">Ship:</a><br><br>
+            <input type="text2" id="shipData"> <br><br>
             <button type="button" id="button1"name="button2">Find Planet</button>
         </div>
 
