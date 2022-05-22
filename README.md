@@ -14,6 +14,13 @@ Para planetas temos 60 dispostos com ID de 1 à 60
 
 Para Naves, há cadastros nos seguintes IDs específicos= 2,3,5,9,10 (*Millenium Falcon*),11,12,13,15,17,19,21,22,23,27,28,29,31 e 32.
 
+Caso tenha inserido IDs válidos nos campos, o box de informações irá se preencher com as informações da viagem.
+
+![image](https://user-images.githubusercontent.com/91426980/169717129-501940b3-b690-41a3-a7bb-46c5bd0e7fe2.png)
+
+IMPORTANTE: O site só permitirá você fazer download do arquivo JSON com as informações da viagem se um entre o piloto e copiloto for um Droid.
+
+
 ## 🛠️ Abrir e rodar o projeto
 
 Para testar localmente este site, basta selecionar uma pasta de sua escolha no seu computador, clicar com botão direito e selecionar Abrir com VScode.
@@ -22,4 +29,5 @@ Para testar localmente este site, basta selecionar uma pasta de sua escolha no s
 
 Abrindo o VScode, basta rodar o seguinte comando no terminal do VScode:
 
-git clone
+$ pwd
+git clone https://github.com/Hfriggi/StarWarsAPI.git
