@@ -56,17 +56,16 @@ document.getElementById('button1').onclick = function(){
                                     }
 
                                     exportName = 'travel ' + Math.random() * (100 - 0) + 100;
-                                    function downloadObjectAsJson(travel, exportName){
+                                    function downloadJson(travel, exportName){
                                         var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(travel));
                                         var downloadAnchorNode = document.createElement('a');
-                                        downloadAnchorNode.setAttribute("href",     dataStr);
+                                        downloadAnchorNode.setAttribute("href", dataStr);
                                         downloadAnchorNode.setAttribute("download", exportName + ".json");
                                         document.body.appendChild(downloadAnchorNode);
                                         downloadAnchorNode.click();
-                                        downloadAnchorNode.remove();
                                       }
 
-                                    downloadObjectAsJson(travel,exportName)
+                                    downloadJson(travel,exportName)
                                     console.log(travel)
                                 }
                             });
